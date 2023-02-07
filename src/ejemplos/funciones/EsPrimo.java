@@ -15,6 +15,7 @@ public class EsPrimo {
 			if(numero%divisor==0) {
 				esPrimo = false;
 			}
+			divisor++;
 		}
 		return esPrimo;
 	}
