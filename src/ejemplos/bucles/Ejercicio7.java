@@ -3,6 +3,23 @@ package ejemplos.bucles;
 import java.util.Scanner;
 
 public class Ejercicio7 {
+	
+	/*
+	 * Pruebas:
+	 * 
+	 * --BUCLES
+	 * 
+	 * 		0 iteraciones -> valor: -2 ->resultado esperado: "no ha introducido un número positivo"
+	 * 
+	 * 		1 iteración -> valor=0 -> resultado esperado: 1
+	 * 
+	 * 		el número máximo de iteraciones es el que marca el propio valor introducido.
+	 * 
+	 * --CUBRIMIENTO
+	 * 
+	 * 		Coinciden con las pruebas de bucles.
+	 * 
+	 */
 
 	public static void main(String[] args) {
 		int numero;

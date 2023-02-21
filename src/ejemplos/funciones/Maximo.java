@@ -8,6 +8,14 @@ public class Maximo {
 	 * @param numero2 Segundo número
 	 * @return El máximo de los dos números introducidos por parámetro
 	 */
+	
+	/*
+	 * Pruebas de condiciones:
+	 * 
+	 * 		- Cuando num1=1; num2=3 -> Resultado esperado: maximo=3 -> Resultado obtenido: maximo:3
+	 * 
+	 * 		- Cuando num1=3; num2=1 -> Resultado esperado: maximo=3 -> Resultado obtenido: maximo=3
+	 */
 	static int maximo (int numero1, int numero2) {
 		// Suponemos que el máximo es numero1
 		int maximo = numero1;

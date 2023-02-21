@@ -4,7 +4,24 @@ import java.util.Scanner;
 
 /* En la resolución de una ecuación de 2º grado tenemos que tener cuidado con dos cosas:
  * 1. Que el valor del interior de la raíz no sea negativo.
- * 2. No podemos dividir por 0
+ * 2. No podemos dividir por 0.
+ * 
+ * 
+ * Pruebas:
+ * 
+ * -- coinciden las de cubrimiento y las de condiciones.
+ * 
+ * -- CUBRIMIENTO
+ * 
+ * -- Toda la primera parte se ejecuta sin prioblema. Cuando llegue el if, asignamos los siguientes valores:
+ * 
+ * 		cuando a=0, cuando b y c=1-> no ocurre nada. x1==x2
+ * 
+ *		cuando a=4, cuando b=2 y c=4 -> sería interiorRaiz negativo, entraría en el segundo if y se imprime
+ *		"no tiene solución real"
+ *
+ *		cuando a=2, b=4 y c=4 ->interiorRaiz será positivo, no entra en el segundo if y se imprime:
+ *		"x1=-1; x=-1"
  */
 public class Ejercicio6 {
 

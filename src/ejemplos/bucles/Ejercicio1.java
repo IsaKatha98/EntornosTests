@@ -2,6 +2,22 @@ package ejemplos.bucles;
 
 import java.util.Scanner;
 
+/*
+ * Pruebas de bucles:
+ * 
+ * 		- 0 iteraciones -> cuando num= -1 -> Resultado esperado:0
+ * 
+ * 		- 1 iteracion -> cuando num=0 y luego num=-1 -> Resultado esperado: 0
+ * 
+ * 		- Máximo de iteraciones -> no se pueden definir pruebas porque no hay un máximo definido
+ * 
+ * 		- Máximo + 1 ->
+ * 
+ * 		- Máximo - 1 ->
+ * 
+ * 		- Valor intermedio ->
+ */
+
 public class Ejercicio1 {
 
 	public static void main(String[] args) {

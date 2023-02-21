@@ -12,6 +12,19 @@ public class Calculadora {
 	 *               4-División
 	 * @return El resultado de realizar la operación seleccionada sobre los números
 	 *         introducidos como parámetro
+	 *         
+	 *         
+	 *        
+	 */
+	
+	/*
+	 * Pruebas de funciones.
+	 * 
+	 *		- Cuando num1=2, num2=2, opc=1 -> Resultado esperado:4
+	 *
+	 *		- Cuando num1=2, num2=2, opc=2 -> Resultado esperado:0
+	 *
+	 *		- Cuando num1=2, num=0, opc=4 -> Resutlado esperado: Error
 	 */
 	public static double calculadora(double num1, double num2, int opcion) {
 		double result = 0;

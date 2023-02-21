@@ -3,6 +3,23 @@ package ejemplos.bucles;
 import java.util.Scanner;
 
 public class Ejercicio5 {
+	
+	/*
+	 * Pruebas:
+	 * 
+	 * --BUCLES
+	 * 
+	 * 		no se puede hacer la prueba de 0 iteraciones porque es un do-while.
+	 * 
+	 * 		1 iteración -> respuesta: "IGUAL" -> resultado esperado: has acertado.
+	 * 
+	 * 		no hay un máximo número de iteraciones.
+	 * 
+	 * 		como valores intermedios -> respuesta: "MAYOR"
+	 * 								 -> respuesta: "MENOR"
+	 * 								 -> respuesta: "IGUAL" -> resultado esperado: has acertado
+	 * 
+	 */
 
 	public static void main(String[] args) {
 		int numero;

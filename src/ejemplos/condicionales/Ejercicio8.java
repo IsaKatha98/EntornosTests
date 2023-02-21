@@ -3,6 +3,31 @@ package ejemplos.condicionales;
 import java.util.Scanner;
 
 public class Ejercicio8 {
+	
+	/*
+	 * --CONDICIONES
+	 * 
+	 *		cuando nota=-1 -> El resultado esperado es error.
+	 * 
+	 * 		cuando nota=11 ->El resultado esperado es error.
+	 * 
+	 * 		cuando nota=0 ->el resultado esperado es insuficiente.
+	 * 
+	 * 		cuando nota=5 -> el resultado esperado es suficiente
+	 * 
+	 * 		cuando nota=6 -> el resultado esperado es bien.
+	 * 
+	 * 		cuando nota=7 -> el resultado esperado es notable.
+	 * 
+	 * 		cuando nota=9 -> el resultado esperado es sobresaliente.
+	 * 
+	 * 		cuando nota=10 -> el resultado esperado es sobresaliente.
+	 * 
+	 * --CUBRIMIENTO
+	 * 
+	 * 		sería igual, se podrían quitar la primera y la última.
+	 * 
+	 */
 
 	public static void main(String[] args) {
 		// nota es la variable donde se guardará la nota introducida por el usuario por teclado
