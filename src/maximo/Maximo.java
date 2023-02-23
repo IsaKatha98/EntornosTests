@@ -1,4 +1,4 @@
-package ejemplos.funciones;
+package maximo;
 
 public class Maximo {
 

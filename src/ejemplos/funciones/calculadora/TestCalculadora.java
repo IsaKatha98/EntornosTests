@@ -1,4 +1,4 @@
-package ejemplos.funciones;
+package ejemplos.funciones.calculadora;
 
 import static org.junit.jupiter.api.Assertions.*;
 

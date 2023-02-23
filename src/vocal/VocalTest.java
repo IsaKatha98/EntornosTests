@@ -1,4 +1,4 @@
-package ejemplos.funciones;
+package vocal;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -9,24 +9,28 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 
-class EsPrimoTest {
+class VocalTest {
 
 	@ParameterizedTest
-	@MethodSource("esPrimo")
-	void esPrimoTest(int num, boolean expected) {
+	@MethodSource ("vocal")
+	
+	void vocalTest(String vocal, boolean expected) {
 		
-		boolean res =EsPrimo.esPrimo(num);
+		boolean res= Vocal.esVocal(vocal);
 		assertEquals (expected, res);
+		
 		
 	}
 
-	private static Stream<Arguments> esPrimo() {
+	public static Stream<Arguments> vocal () {
 		
-		return Stream.of (
+		return Stream.of(
 				
-				Arguments.of(7, true),
-				Arguments.of(6, false)
+				Arguments.of ("a", true),
+				Arguments.of ("b", false)
 				
 				);
+				
+				
 	}
 }

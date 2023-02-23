@@ -1,4 +1,4 @@
-package ejemplos.funciones;
+package esPrimo;
 
 public class EsPrimo {
 

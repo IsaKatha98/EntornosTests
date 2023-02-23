@@ -1,4 +1,4 @@
-package ejemplos.funciones;
+package sumaNum;
 
 public class SumaNumeros {
 

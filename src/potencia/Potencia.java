@@ -1,4 +1,4 @@
-package ejemplos.funciones;
+package potencia;
 
 public class Potencia {
 	/**

@@ -1,4 +1,4 @@
-package ejemplos.funciones;
+package vocal;
 
 public class Vocal {
 

@@ -1,4 +1,4 @@
-package ejemplos.funciones;
+package ejemplos.funciones.calculadora;
 
 public class Calculadora {
 
