@@ -26,8 +26,12 @@ class VocalTest {
 		
 		return Stream.of(
 				
-				Arguments.of ("a", true),
-				Arguments.of ("b", false)
+				Arguments.of ("A", true),
+				Arguments.of ("e", true),
+				Arguments.of("I", true),
+				Arguments.of("O", true),
+				Arguments.of("u", true),
+				Arguments.of ("C", false)
 				
 				);
 				

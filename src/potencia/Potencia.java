@@ -9,7 +9,7 @@ public class Potencia {
 	 */
 	public static double potencia (double a, int n) {
 		double result=1;
-		
+				
 		if(n==1) {
 			result=a;
 		} else if (n>1){

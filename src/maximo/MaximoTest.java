@@ -25,8 +25,8 @@ class MaximoTest {
 		
 		return Stream.of(
 				
-				Arguments.of(1,3, 3),
-				Arguments.of(3,1,3)
+				Arguments.of(1, 2, 2),
+				Arguments.of(2 ,1, 2)
 				
 				);
 				

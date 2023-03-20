@@ -25,8 +25,9 @@ class PotenciaTest {
 		
 		return Stream.of(
 				
-				Arguments.of(2, 3, 8),
-				Arguments.of(3,1,3)
+				Arguments.of(3, 1, 3),
+				Arguments.of(3, 2, 9),
+				Arguments.of(5, 0, 1)
 				
 				);
 	}

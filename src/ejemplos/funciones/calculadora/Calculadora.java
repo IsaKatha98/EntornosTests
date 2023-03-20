@@ -6,7 +6,7 @@ public class Calculadora {
 	 * Función que realiza la operación indicada en el parámetro opcion sobre los
 	 * valores de num1 y num2
 	 * 
-	 * @param num1   Primero número con el que realizar la operación
+	 * @param num1   Primer número con el que realizar la operación
 	 * @param num2   Segundo número con el que realizar la operación
 	 * @param opcion Operación a realizar: 1-Suma, 2-Resta, 3-Multiplicación,
 	 *               4-División

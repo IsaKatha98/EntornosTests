@@ -37,6 +37,23 @@ public class Ejercicio1 {
 				+ "Introduzca un valor negativo para salir del programa. ");
 
 		num = sc.nextInt();
+		
+		suma=sumaNum (num);
+		
+		// Imprimo el resultado de la suma
+		System.out.println("La suma total de los números introducidos es: " + suma);
+
+		sc.close();
+	}
+	
+	public static int sumaNum (int num) {
+		
+		int res=0;
+		int suma=0;
+		
+		// Creo el Scanner
+		Scanner sc = new Scanner(System.in);
+		
 		while (num >= 0) {
 
 			// Le añado a la variable el valor de num
@@ -45,10 +62,11 @@ public class Ejercicio1 {
 			// Le vuelvo a pedir al usuario un número
 			num = sc.nextInt();
 		}
-		// Imprimo el resultado de la suma
-		System.out.println("La suma total de los números introducidos es: " + suma);
-
-		sc.close();
+		
+		res=suma;
+		
+		return res;
+		
 	}
 
 }
